@@ -1,0 +1,214 @@
+# Updated Portfolio — HTML (index.html)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Soni | Portfolio</title>
+    <meta name="description" content="Portfolio of Vivek Soni, featuring CV, skills, and certifications in Data Structures, Java, and Python.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Vivek<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1c4BUcM_Se4_PhmstJDHEfhWDaWn4vkuh/view?usp=drive_link"
+                       class="btn btn-outline" target="_blank" rel="noopener noreferrer">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section id="hero" class="hero section">
+            <div class="hero-content">
+                <span class="badge">Welcome to my universe</span>
+                <h1 class="hero-title">Hi, I'm <br><span class="gradient-text">Vivek Soni</span></h1>
+                <p class="hero-subtitle">Passionate developer, problem solver, and continuous learner.</p>
+                <div class="hero-actions">
+                    <a href="#certificates" class="btn btn-primary">
+                        View Credentials <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1c4BUcM_Se4_PhmstJDHEfhWDaWn4vkuh/view?usp=drive_link"
+                       class="btn btn-secondary" target="_blank">
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+
+            <!-- Floating Skills Cards -->
+            <div class="hero-visual">
+                <div class="glass-card sub-card sub-card-1">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="glass-card sub-card sub-card-2">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about section glass-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated software developer passionate about building efficient and elegant
+                        solutions. Throughout my journey, I have cultivated a strong foundation in core
+                        programming concepts and modern development practices.
+                    </p>
+                    <p>
+                        I constantly strive to learn new technologies and improve my problem-solving skills,
+                        as demonstrated by my continuous pursuit of knowledge and certifications.
+                    </p>
+
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-text">Certifications</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-num">Java</span>
+                            <span class="stat-text">& Python</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-num">DSA</span>
+                            <span class="stat-text">Focused</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="about-cv-preview">
+                    <div class="cv-card glass-panel">
+                        <div class="cv-header">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <div>
+                                <h3>Curriculum Vitae</h3>
+                                <span>PDF Document</span>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1c4BUcM_Se4_PhmstJDHEfhWDaWn4vkuh/view?usp=drive_link"
+                           target="_blank" class="btn btn-primary full-width">View Full Resume</a>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- Certificates -->
+        <section id="certificates" class="certificates section">
+            <h2 class="section-title">Licenses & Certifications</h2>
+            <p class="section-desc">
+                Proof of my dedication to continuous learning and mastery of fundamental concepts.
+            </p>
+
+            <div class="cert-grid">
+                <div class="cert-card glass-panel">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-diagram-project"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Data Structures & Algorithms</h3>
+                        <p>Comprehensive understanding of core computing concepts.</p>
+                        <a href="https://drive.google.com/file/d/1p-OoB-Yyrc7TNc2hFLHuTJRO7Z-vUJj6/view"
+                           target="_blank" class="cert-link">
+                           View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card glass-panel">
+                    <div class="cert-icon java-icon">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Java Programming</h3>
+                        <p>Proficiency in Object-Oriented Programming and Java ecosystem.</p>
+                        <a href="https://drive.google.com/file/d/1MnoPbCipFjSv0okm74OE_BWWVXDzz1WQ/view"
+                           target="_blank" class="cert-link">
+                           View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card glass-panel">
+                    <div class="cert-icon generic-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>GEN AI NASSCOM</h3>
+                        <p>Additional professional achievement and recognition.</p>
+                        <a href="https://drive.google.com/file/d/1pYCbksEHd1kxPZ4gXcu5WJe_KGpu_blG/view?usp=drive_link"
+                           target="_blank" class="cert-link">
+                           View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact / Footer -->
+    <footer id="contact">
+        <div class="footer-content glass-panel">
+            <h2>Let's connect</h2>
+            <p>
+                I'm always open to discussing new projects, creative ideas or opportunities
+                to be part of your visions.
+            </p>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+916376731448">+91 6376731448</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:viveksoni8663@gmail.com">viveksoni8663@gmail.com</a>
+                </p>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/Viveksoni86" class="social-icon" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/VivekSoni17" class="social-icon" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <!-- <a href="mailto:viveksoni8663@gmail.com" class="social-icon">
+                    <i class="fa-solid fa-envelope"></i> -->
+                </a>
+            </div>
+
+            <p class="copyright">
+                &copy; <span id="year"></span> Vivek Soni. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
